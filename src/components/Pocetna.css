@@ -1,0 +1,94 @@
+/* Pocetna.css */
+
+.pocetna-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-size: 50%;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(223, 199, 152);
+    background-image: url('../assets/tablaa3.png'); 
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.play-button{
+    width: 150px;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+    margin-bottom: 200x;
+    box-shadow: 0 0 10px rgba(221, 23, 23, 0.5);
+
+    
+
+}
+.novop{
+    color: black;
+    margin-top: -80px; /* Prilagodite vrednost margina prema potrebi */
+    padding: 5px; 
+    letter-spacing: 2px; /* Postavite na željeni razmak */
+    font-size: 30px; /* Postavite na željenu veličinu */
+    box-shadow: 0 0 10px rgba(46, 40, 14, 0.5);
+
+    
+}
+
+/* Stil za dugmad */
+.info-button {
+    width: 80px;
+    
+    margin: 5px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+    margin-bottom: 200x;
+    margin-left: 50px;
+    box-shadow: 0 0 10px rgba(20, 46, 214, 0.5);
+
+}
+.dugmmici{
+    margin-bottom: 190px;
+    margin-left: 30px;
+}
+/* Stil za info div */
+.info-div-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    max-width: 600px; /* Povećajte širinu po potrebi */
+    text-align: center;
+    color: #000;
+    margin-bottom: 300px; 
+    box-shadow: 0 0 10px rgba(162, 153, 153, 0.715);
+
+    /* text-align: left; Postavljamo poravnanje teksta na levo */
+
+}
+.info-div-container p {
+    /* ostatak koda */
+    text-align: justify;
+    margin: 0;}
+.play-button {
+    /* ostatak koda */
+   
+    color: black;
+}
+
+/* Stil za zatvori dugme unutar info diva */
+.info-div-container .close-button {
+   
+    margin: 5px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+}
